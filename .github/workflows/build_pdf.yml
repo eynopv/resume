@@ -3,7 +3,7 @@ name: "Build resume pdf"
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
