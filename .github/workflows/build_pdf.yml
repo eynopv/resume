@@ -1,0 +1,36 @@
+name: "Build resume pdf"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Setup virtual environment
+        run: make venv
+
+      - name: Install dependencies
+        run: make install-dependencies
+
+      - name: Build pdf
+        run: make resume
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume.pdf
+          path: resume.pdf
+          if-no-files-found: error
+          overwrite: true

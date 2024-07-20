@@ -1,0 +1,150 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+  "basics": {
+    "name": "Eyno Perevodchikov",
+    "label": "Software Engineer",
+    "email": "eynopv@gmail.com",
+    "phone": "+358 50 5688871",
+    "summary": "Experienced software developer proficient in frontend and backend development, cloud computing, and agile methodologies. Adept at solving complex problems efficiently and delivering top-notch solutions, with experience in startups and large companies.",
+    "location": {
+      "city": "Espoo",
+      "countryCode": "FI"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "eynopv",
+        "url": "https://github.com/eynopv"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "eyno-perevodchikov",
+        "url": "https://www.linkedin.com/in/eyno-perevodchikov/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Nitor Creations Oy",
+      "position": "Software Engineer",
+      "url": "https://nitor.com",
+      "startDate": "2022-10",
+      "highlights": [
+        "Developed a proof of concept, leading to the acquisition of a long-term client in a cutting-edge industry",
+        "Lead a team development of an indoor location mobile application for high value customer",
+        "Created a real-time data synchronisation between ERP and delivery service enhancing logistics efficiency"
+      ]
+    },
+    {
+      "name": "Vello Solutions Oy",
+      "position": "Senior Back-end Developer",
+      "url": "https://www.vello.fi",
+      "startDate": "2021-10",
+      "endDate": "2022-10",
+      "highlights": [
+        "Integrated back-end with national patient registry (Kanta), streamlining patient data access",
+        "Refactored a monolithic application to serverless architecture with CI/CD pipelines, increasing frequency of deployments from once a week to multiple a day",
+        "Managed lifecycle of company products, ensuring high-quality releases",
+        "Provided mentorship and guidance to junior developers, fostering collaborative environment"
+      ]
+    },
+    {
+      "name": "Vello Solutions Oy",
+      "position": "Back-end Developer",
+      "url": "https://www.vello.fi",
+      "startDate": "2019-10",
+      "endDate": "2021-10",
+      "highlights": [
+        "Implemented billing and payment solution integrated with Stripe API, increasing company revenue by 40%",
+        "Developed synchronisation with external calendars, enhancing scheduling capabilities",
+        "Implemented federated authentication, improving securing and user experience"
+      ]
+    },
+    {
+      "name": "Wapice Oy",
+      "position": "Software Developer",
+      "startDate": "2018-05",
+      "endDate": "2019-06"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Vaasa University of Applied Science (VAMK)",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "endDate": "2019"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Associate Cloud Engineer",
+      "date": "2024-07"
+    },
+    {
+      "name": "Azure Fundamentals",
+      "date": "2024-04"
+    },
+    {
+      "name": "Certified SAFe 6 Agilist",
+      "date": "2023-11"
+    },
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "date": "2023-08"
+    },
+    {
+      "name": "W3C Introduction to Web Accessibility",
+      "date": "2023-07"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["TypeScript", "Python", "Go"]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [
+        "React",
+        "React Native",
+        "Next.js",
+        "Flask",
+        "Express.js",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["PostgreSQL", "MongoDB", "DynamoDB", "Redis", "OpenSearch"]
+    },
+    {
+      "name": "DevOps",
+      "keywords": ["AWS", "Terraform", "Docker", "GitHub Actions"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Figma"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Finnish",
+      "fluency": "Limited"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    }
+  ],
+  "projects": [
+    {
+      "name": "lac",
+      "description": "command-line HTTP client with filesystem based collection management",
+      "url": "https://github.com/eynopv/lac"
+    }
+  ]
+}
