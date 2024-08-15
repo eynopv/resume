@@ -64,7 +64,12 @@
       "name": "Wapice Oy",
       "position": "Software Developer",
       "startDate": "2018-05",
-      "endDate": "2019-06"
+      "endDate": "2019-06",
+      "highlights": [
+        "Lead developer for an AI sound anomaly detection solution.",
+        "Led the development of an automated program for IoT device interfacing.",
+        "Principal developer for a web-based hybrid cloud monitoring solution."
+      ]
     }
   ],
   "education": [
@@ -77,20 +82,20 @@
   ],
   "certificates": [
     {
-      "name": "Associate Cloud Engineer",
-      "date": "2024-07"
+      "name": "AWS Certified Solutions Architect - Associate",
+      "date": "2023-08"
     },
     {
       "name": "Azure Fundamentals",
       "date": "2024-04"
     },
     {
-      "name": "Certified SAFe 6 Agilist",
-      "date": "2023-11"
+      "name": "Google Associate Cloud Engineer",
+      "date": "2024-07"
     },
     {
-      "name": "AWS Certified Solutions Architect - Associate",
-      "date": "2023-08"
+      "name": "Certified SAFe 6 Agilist",
+      "date": "2023-11"
     },
     {
       "name": "W3C Introduction to Web Accessibility",
