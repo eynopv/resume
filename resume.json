@@ -25,10 +25,18 @@
   },
   "work": [
     {
+      "name": "Zevoy Aktiebolag",
+      "position": "Senior Software Engineer",
+      "url": "https://zevoy.com",
+      "startDate": "2024-12",
+      "highlights": []
+    },
+    {
       "name": "Nitor Creations Oy",
       "position": "Software Engineer",
       "url": "https://nitor.com",
       "startDate": "2022-10",
+      "endDate": "2024-12",
       "highlights": [
         "Developed a proof of concept, leading to the acquisition of a long-term client in a cutting-edge industry",
         "Lead a team development of an indoor location mobile application for high value customer",
